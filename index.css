@@ -1,0 +1,132 @@
+body {
+	background-color: black;
+	background-image: url(imagens/bg.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.h1 {
+	text-align: center;
+	font-family: arial narrow;
+	color: lightgreen;
+}
+
+.nav1 ul {
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.nav1 ul li {
+	display: inline;
+}
+
+.nav1 ul li a {
+	font-size: 17px;
+	font-family: impact;
+	padding: 5px 10px;
+	display: inline-block;
+	color: red;
+	text-decoration: none;
+	
+}
+
+.nav1 ul li a:hover {
+	background-color: gray;
+	color: darkred;
+	border-radius: 10px;
+	
+}
+
+.header1 {
+	padding-top: 1px;
+	padding-bottom: 3px;
+	background-color: black;
+	opacity: 0.9;
+	text-align: center;
+	font-family: arial narrow;
+	color: darkgreen;
+}
+
+.artigo1 table {
+	border-radius: 10px;
+	border-color: darkgreen;
+}
+
+.artigo1 {
+	background-color: black;
+	opacity: 0.8;
+	float: left;
+	font-family: comic sans ms;
+	font-size: 20px;
+	text-align: left;
+	color: green;
+}
+
+.artigo2 {
+	float: right;
+	text-align: center;
+	color: white;
+}
+
+.quest td {
+	color: blue;
+}
+
+
+#diversos {
+	font-family: arial;
+	color: lightgreen;	
+}
+
+#diversos a {
+	font-family: arial;
+	color: darkgreen;
+	text-decoration: none;
+}
+
+
+#diversos img {
+	border-radius: 20px;
+}
+
+.quest select {
+	font-family: comic sans ms;
+}
+
+.quest option {
+	font-family: comic sans ms;
+}
+
+.quest input {
+	font-family: comic sans ms;
+	color: blue;
+}
+
+
+.mds {
+	font-style: 6px;
+	font-family: impact;
+	color: white;
+	text-decoration: none;
+}
+
+.final {
+	opacity: 0.8;
+	margin-top: -15px;
+	margin-bottom: -15px;
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-family: century gothic;
+	font-style: normal;
+	font-size: 14px;
+}
+
+.final a {
+	font-size: 22px;
+	font-family: impact;
+	color: yellow;
+}

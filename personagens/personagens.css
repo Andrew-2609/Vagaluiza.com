@@ -1,0 +1,95 @@
+body {
+	background-color: black;
+}
+
+.header1 {
+	text-align: center;
+	font-family: arial narrow;
+	color: white;	
+}
+
+.h1 {
+	background-color: rgba(0,0,0,0.1);
+	text-align: center;
+	font-family: arial narrow;
+	color: white;
+}
+
+.h2 {
+	text-align: center;
+	font-family: arial narrow;
+	color: white;	
+}
+
+.nav1 {
+	background-size: 100%;
+	background-image: url(imagens/menu.jpg);
+}
+
+.nav1 ul {
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.nav1 ul li {
+	display: inline;
+}
+
+.nav1 ul li a {
+	font-size: 17px;
+	font-family: impact;
+	padding: 5px 10px;
+	display: inline-block;
+	color: red;
+	text-decoration: none;
+	
+}
+
+.nav1 ul li a:hover {
+	background-color: gray;
+	color: darkred;
+	border-radius: 10px;
+	
+}
+
+.section {
+	background-image: url(imagens/bg.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.form {
+	padding: 5px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.a1 {
+	float: left;
+}
+
+.a1 p {
+	float: right;
+	color: white;
+	font-family: arial narrow;
+}
+
+.final {
+	opacity: 0.8;
+	margin-top: -15px;
+	margin-bottom: -15px;
+	background-color: black;
+	text-align: center;
+	color: white;
+	font-family: century gothic;
+	font-style: normal;
+	font-size: 14px;
+}
+
+.final a {
+	font-size: 22px;
+	font-family: impact;
+	color: yellow;
+}

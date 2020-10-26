@@ -1,0 +1,116 @@
+body {
+	background-color: black;
+	background-image: url(imagens/bg2.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.h1 {
+	text-align: center;
+	font-family: arial narrow;
+	color: black;
+}
+
+.nav1 ul {
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+.nav1 ul li {
+	display: inline;
+}
+
+.nav1 ul li a {
+	font-size: 17px;
+	font-family: impact;
+	padding: 5px 10px;
+	display: inline-block;
+	color: red;
+	text-decoration: none;
+	
+}
+
+.nav1 ul li a:hover {
+	background-color: gray;
+	color: darkred;
+	border-radius: 10px;
+	
+}
+
+.hinicial {
+	text-align: center;
+	font-family: bernard mt;
+	color: black;
+}
+
+#form {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 350px;
+	margin-right: 350px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#form legend {
+	letter-spacing: 1px;
+	font-family: impact;
+	color: white;
+}
+
+#form td {
+	letter-spacing: 1px;
+	font-family: impact;
+	color: white;
+}
+
+.telefone {
+	width: 34px;
+}
+
+.dados {
+	width: 20%;
+}
+
+.botao {
+	text-align: center;
+}
+
+.botao input {
+	font-family: comic sans ms;
+	color: blue;
+}
+
+.reset {
+	text-align: center;
+}
+
+.reset input {
+	font-family: comic sans ms;
+	color: blue;
+}
+
+#comentario {
+	font-family: comic sans ms;
+}
+
+.final {
+	margin-left: 350px;
+	margin-right: 350px;
+	margin-top: -15px;
+	margin-bottom: -15px;
+	background-color: rgba(0,0,0,0.5);
+	text-align: center;
+	color: white;
+	font-family: century gothic;
+	font-style: normal;
+	font-size: 14px;
+}
+
+.final a {
+	font-size: 22px;
+	font-family: impact;
+	color: yellow;
+}
